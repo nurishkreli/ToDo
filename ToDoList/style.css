@@ -1,0 +1,125 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: black;
+}
+
+.container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   text-align: center;
+}
+
+
+.text-div h2 {
+   color: #ffffff;
+   letter-spacing: 2px;
+   font-size: 40px; 
+   margin: 30px 0;
+ 
+}
+
+
+.text-div p {
+   color: #ffffff;
+   font-size: 20px;
+   
+}
+
+.text-div{ 
+   position: absolute;
+   top: 0;
+}
+
+.input-div input {
+   color: black;
+   width: 800px;
+   height: 45px;
+   border-radius: 20px;
+   padding: 5px 10px;
+   font-size: 15px;
+   outline: none;
+   background: #ffffff;
+   border: 3px solid #2bff00;
+}
+
+.input-div button {
+   height: 45px;
+   width: 50px;
+   outline: none;
+   border-radius: 10px;
+   background: #ffffff;
+   border: 3px solid #2bff00;
+}
+
+
+.input-div button:hover {
+   background: #2bff00;
+   color: #ffffff;
+   
+}
+
+.input-div button:active {
+   background: #2bff00;
+   color: black;
+}
+
+
+.to-do-div {
+   position: absolute;
+   top: 60%;
+   width: 700px;
+}
+
+
+.to-do-div ul {
+   list-style-type: none;
+
+}
+
+
+.to-do-div ul > li {
+   border: 2px solid black;
+   margin: 17px 12px;
+   background: #ffffff;
+   padding: 5px 15px;
+   border-radius: 20px;
+
+}
+
+.done {
+      background: #2bff00 !important;
+      text-decoration: line-through;
+}
+
+.to-do-div ul > li:hover {
+   cursor: pointer;  
+   background: #ffffff; 
+}
+
+li > button {
+position: absolute;
+margin: 5px;
+right: 5%;
+padding: 2px;
+background: transparent;
+border: none;
+font-size: 1rem;
+}
+
+li > button:hover {
+   color: black;
+   cursor: pointer;
+}
+
+.delete-button {
+   color: #2bff00; 
+}
